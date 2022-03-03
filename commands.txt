@@ -1,8 +1,17 @@
 git --version			to check version
+
 git config --global user.name "<username>"
 git config --global user.email "<email>"
+
 git init				to make a cwd as repo
+
 git staus				to know status
+git status --short		short status message
+					?? - Untracked files
+					A - Files added to stage
+					M - Modified files
+					D - Deleted files
+
 git add <file1> <file2>	..	add files for staging
 git add -all[git add -A]	add all files for staging
 
@@ -10,6 +19,8 @@ git rm --cached <file>		remove staged files
 git restore <file>		to discard changes in working directory after added to staging
 
 git commit -m "<message>"	commit our stagged files to repo with a message
+
+
 
 
 
