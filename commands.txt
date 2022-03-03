@@ -8,6 +8,10 @@ git config --global user.email "<email>"
 
 git init				to make a cwd as repo
 
+git branch <branchName>		create a new branch
+git checkout <branchName>	create anew branch
+git checkout -b <branchName>	create a new branch if not exist
+
 git staus				to know status
 git status --short		short status message
 					?? - Untracked files
