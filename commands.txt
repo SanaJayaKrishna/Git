@@ -40,7 +40,12 @@ git remote rm <name>						remove remote repo alias
 
 git push -u <name> <branch>*		push code from a branch to repo of given name
 
+git fetch 											gets all the change history of a tracked branch/repo
+
 git log 												history of commits
+git log <alias>/<branch>				check changes after fetch
+
+git diff <alias>/<branch>				difference from remote and local
 
 
 
