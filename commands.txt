@@ -1,34 +1,39 @@
-git --version			to check version
-git help --all			help for all commands
-git <command> -help		help all options for a command
+git --version										to check version
+git help --all									help for all commands
+git <command> -help							help all options for a command
 
 
 git config --global user.name "<username>"
 git config --global user.email "<email>"
 
-git init				to make a cwd as repo
+git init												to make a cwd as repo
 
-git branch <branchName>		create a new branch
-git checkout <branchName>	create anew branch
-git checkout -b <branchName>	create a new branch if not exist
+git branch <branchName>					create a new branch
+git branch -d <branch-name> 		delete a branch after commit
+git branch -D <branch-name> 		deletea branch forcefully without commit
 
-git staus				to know status
-git status --short		short status message
-					?? - Untracked files
-					A - Files added to stage
-					M - Modified files
-					D - Deleted files
+git checkout <branchName>				create anew branch
+git checkout -b <branchName>		create a new branch if not exist
 
-git rm --cached <file>		remove staged files
-git restore <file>		to discard changes in working directory after added to staging
+git merge <branchName>					merge branchName with current branch
 
-git add <file1> <file2>	..	add files for staging
-git add -all[git add -A]	add all files for staging
+git status											to know status
+git status --short							short status message
+																?? - Untracked files
+																A - Files added to stage
+																M - Modified files
+																D - Deleted files
 
-git commit -m "<message>"	commit our stagged files to repo with a message
-git commit -a -m "<message>"	commit all modified/changed files without staging to repo with a message
+git rm --cached <file>					remove staged files
+git restore <file>							to discard changes in working directory after added to staging
 
-git log 				history of commits
+git add <file1> <file2>	..			add files for staging
+git add -all[git add -A]				add all files for staging
+
+git commit -m "<message>"				commit our stagged files to repo with a message
+git commit -a -m "<message>"		commit all modified/changed files without staging to repo with a message
+
+git log 												history of commits
 
 
 
