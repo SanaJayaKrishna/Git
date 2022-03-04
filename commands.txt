@@ -55,3 +55,6 @@ mkdir <directory>	make directory
 ls			list all files
 
 pushed from dev
+cd <directory>									change directory
+mkdir <directory>								make directory
+ls															list all files
