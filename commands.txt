@@ -15,8 +15,6 @@ git branch -D <branch-name> 		deletea branch forcefully without commit
 git checkout <branchName>				create anew branch
 git checkout -b <branchName>		create a new branch if not exist
 
-git merge <branchName>					merge branchName with current branch
-
 git status											to know status
 git status --short							short status message
 																?? - Untracked files
@@ -32,6 +30,11 @@ git add -all[git add -A]				add all files for staging
 
 git commit -m "<message>"				commit our stagged files to repo with a message
 git commit -a -m "<message>"		commit all modified/changed files without staging to repo with a message
+
+git merge <branchName>					merge branchName with current branch
+
+git remote add origin <url>			add local repo to remote repo in that specific url
+git push -u origin <branch>			push code from a branch to repo
 
 git log 												history of commits
 
