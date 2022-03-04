@@ -44,6 +44,10 @@ git log 												history of commits
 
 
 
+
+
+
+
 cd <directory>	change directory
 mkdir <directory>	make directory
 ls			list all files
