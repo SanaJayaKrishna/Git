@@ -50,6 +50,6 @@ git log <alias>/<branch>				check changes after fetch
 git diff <alias>/<branch>				difference from remote and local
 
 
-cd <directory>	change directory
-mkdir <directory>	make directory
-ls			list all files
+cd <directory>									change directory
+mkdir <directory>								make directory
+ls															list all files
