@@ -33,8 +33,11 @@ git commit -a -m "<message>"		commit all modified/changed files without staging 
 
 git merge <branchName>					merge branchName with current branch
 
-git remote add origin <url>			add local repo to remote repo in that specific url
-git push -u origin <branch>			push code from a branch to repo
+git remote add <name> <url>			assign remote repo url to given name
+git remote -v										view remote repos
+git remote rm <name>						remove remote repo alias
+
+git push -u <name> <branch>			push code from a branch to repo of given name
 
 git log 												history of commits
 
