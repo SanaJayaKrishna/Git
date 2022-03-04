@@ -60,7 +60,3 @@ git diff <alias>/<branch>				difference from remote and local
 cd <directory>	change directory
 mkdir <directory>	make directory
 ls			list all files
-
-
-
-
