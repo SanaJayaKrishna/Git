@@ -42,6 +42,8 @@ git push -u <name> <branch>*		push code from a branch to repo of given name
 
 git fetch 											gets all the change history of a tracked branch/repo
 
+git pull <url>									pull data from url or alias name 
+
 git log 												history of commits
 git log <alias>/<branch>				check changes after fetch
 
